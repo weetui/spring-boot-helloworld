@@ -23,7 +23,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index(ModelMap map) {
-        map.addAttribute("host", "what is webhooks fuck...This is OK?");
+        map.addAttribute("host", "what is webhooks...This is OK? test multi branch");
         return "index";
     }
 
